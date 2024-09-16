@@ -19,7 +19,7 @@ struct ContentView: View {
                     // To Implement
                 }
             label: {
-                Text("Goo on")
+                Text("Go")
                     .padding(.horizontal)
                     .padding(.vertical, 10)
                     .background(.blue)
