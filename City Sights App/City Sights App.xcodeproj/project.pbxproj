@@ -12,6 +12,7 @@
 		A51F482D2C97CBE5006E9C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F482C2C97CBE5006E9C62 /* Assets.xcassets */; };
 		A51F48302C97CBE5006E9C62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F482F2C97CBE5006E9C62 /* Preview Assets.xcassets */; };
 		A51F48372C97CC09006E9C62 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A51F48362C97CC09006E9C62 /* Config.xcconfig */; };
+		A5229F2C2C97D990001717B5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5229F2B2C97D990001717B5 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A51F482F2C97CBE5006E9C62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A51F48362C97CC09006E9C62 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		A51F48382C97CCD1006E9C62 /* City-Sights-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "City-Sights-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A5229F2B2C97D990001717B5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 				A51F48382C97CCD1006E9C62 /* City-Sights-App-Info.plist */,
 				A51F48282C97CBE3006E9C62 /* City_Sights_AppApp.swift */,
 				A51F482A2C97CBE3006E9C62 /* ContentView.swift */,
-				A51F482C2C97CBE5006E9C62 /* Assets.xcassets */,
+				A5229F2B2C97D990001717B5 /* DataService.swift */,
 				A51F48362C97CC09006E9C62 /* Config.xcconfig */,
+				A51F482C2C97CBE5006E9C62 /* Assets.xcassets */,
 				A51F482E2C97CBE5006E9C62 /* Preview Content */,
 			);
 			path = "City Sights App";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5229F2C2C97D990001717B5 /* DataService.swift in Sources */,
 				A51F482B2C97CBE3006E9C62 /* ContentView.swift in Sources */,
 				A51F48292C97CBE3006E9C62 /* City_Sights_AppApp.swift in Sources */,
 			);
