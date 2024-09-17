@@ -8,9 +8,6 @@
 ## Igonore *.xcuserstate
 *.xcuserstate
 
-## Assets.xcassets (large image files)
-City Sights App/City Sights App/Assets.xcassets/
-
 
 ## User settings
 xcuserdata/
