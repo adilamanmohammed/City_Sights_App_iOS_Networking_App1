@@ -13,6 +13,7 @@
 		A51F48302C97CBE5006E9C62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F482F2C97CBE5006E9C62 /* Preview Assets.xcassets */; };
 		A51F48372C97CC09006E9C62 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A51F48362C97CC09006E9C62 /* Config.xcconfig */; };
 		A5229F2C2C97D990001717B5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5229F2B2C97D990001717B5 /* DataService.swift */; };
+		A54B67772C9A285C007DEBE4 /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B67762C9A285C007DEBE4 /* BusinessDetailView.swift */; };
 		A5E005B52C98AE8100FF6002 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E005B42C98AE8100FF6002 /* BusinessSearch.swift */; };
 		A5E005B72C98AEFE00FF6002 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E005B62C98AEFE00FF6002 /* Business.swift */; };
 		A5E005BA2C99453B00FF6002 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E005B92C99453B00FF6002 /* TextHelper.swift */; };
@@ -27,6 +28,7 @@
 		A51F48362C97CC09006E9C62 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		A51F48382C97CCD1006E9C62 /* City-Sights-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "City-Sights-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A5229F2B2C97D990001717B5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A54B67762C9A285C007DEBE4 /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
 		A5E005B42C98AE8100FF6002 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
 		A5E005B62C98AEFE00FF6002 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		A5E005B92C99453B00FF6002 /* TextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				A51F48382C97CCD1006E9C62 /* City-Sights-App-Info.plist */,
 				A51F48282C97CBE3006E9C62 /* City_Sights_AppApp.swift */,
 				A51F482A2C97CBE3006E9C62 /* ContentView.swift */,
+				A54B67762C9A285C007DEBE4 /* BusinessDetailView.swift */,
 				A5229F2B2C97D990001717B5 /* DataService.swift */,
 				A5E005B82C99451500FF6002 /* Helpers */,
 				A5E005B32C98AE5300FF6002 /* Model */,
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5229F2C2C97D990001717B5 /* DataService.swift in Sources */,
+				A54B67772C9A285C007DEBE4 /* BusinessDetailView.swift in Sources */,
 				A5E005B52C98AE8100FF6002 /* BusinessSearch.swift in Sources */,
 				A51F482B2C97CBE3006E9C62 /* ContentView.swift in Sources */,
 				A5E005B72C98AEFE00FF6002 /* Business.swift in Sources */,
