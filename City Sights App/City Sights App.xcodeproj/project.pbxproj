@@ -15,6 +15,7 @@
 		A5229F2C2C97D990001717B5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5229F2B2C97D990001717B5 /* DataService.swift */; };
 		A5E005B52C98AE8100FF6002 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E005B42C98AE8100FF6002 /* BusinessSearch.swift */; };
 		A5E005B72C98AEFE00FF6002 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E005B62C98AEFE00FF6002 /* Business.swift */; };
+		A5E005BA2C99453B00FF6002 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E005B92C99453B00FF6002 /* TextHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A5229F2B2C97D990001717B5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A5E005B42C98AE8100FF6002 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
 		A5E005B62C98AEFE00FF6002 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		A5E005B92C99453B00FF6002 /* TextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				A51F48282C97CBE3006E9C62 /* City_Sights_AppApp.swift */,
 				A51F482A2C97CBE3006E9C62 /* ContentView.swift */,
 				A5229F2B2C97D990001717B5 /* DataService.swift */,
+				A5E005B82C99451500FF6002 /* Helpers */,
 				A5E005B32C98AE5300FF6002 /* Model */,
 				A51F48362C97CC09006E9C62 /* Config.xcconfig */,
 				A51F482C2C97CBE5006E9C62 /* Assets.xcassets */,
@@ -87,6 +90,14 @@
 				A5E005B62C98AEFE00FF6002 /* Business.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A5E005B82C99451500FF6002 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A5E005B92C99453B00FF6002 /* TextHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				A5E005B52C98AE8100FF6002 /* BusinessSearch.swift in Sources */,
 				A51F482B2C97CBE3006E9C62 /* ContentView.swift in Sources */,
 				A5E005B72C98AEFE00FF6002 /* Business.swift in Sources */,
+				A5E005BA2C99453B00FF6002 /* TextHelper.swift in Sources */,
 				A51F48292C97CBE3006E9C62 /* City_Sights_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
