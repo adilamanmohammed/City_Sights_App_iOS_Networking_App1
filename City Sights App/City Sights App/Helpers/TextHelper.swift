@@ -18,3 +18,20 @@ struct TextHelper {
         }
     }
 }
+
+struct TextHelperForRating {
+    static func RatingText(rating: Double) -> String {
+        // Check if the rating is a whole number
+        if rating.truncatingRemainder(dividingBy: 1) == 0 {
+            return "\(Int(rating))"
+        }
+        
+        // Round to the nearest 0.5
+        let roundedRating = (round(rating * 2) / 2)
+        return String(format: "%.1f", roundedRating)
+    }
+}
+
+
+
+

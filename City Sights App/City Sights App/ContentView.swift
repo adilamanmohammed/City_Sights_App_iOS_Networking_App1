@@ -51,7 +51,12 @@ struct ContentView: View {
                                     .foregroundStyle(Color(red: 67/255, green: 71/255, blue: 76/255))
                             }
                             Spacer()
-                            Image("regular_\(b.rating ?? 0)")
+                            
+                            // Use the helper function to round the rating properly
+                            let roundedRating = TextHelperForRating.RatingText(rating: b.rating ?? 0)
+
+                            // Call Image with the correct name
+                            Image("regular_\(roundedRating)")
                         }
                         Divider()
                     }
